@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+    }
+    .gallery a {
+      display: inline-block;
+    }
+    .gallery img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border: 2px solid #ddd;
+      border-radius: 5px;
+      transition: transform 0.2s ease-in-out;
+    }
+    .gallery img:hover {
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Image Gallery</h1>
+
+  <div class="gallery">
+   
+    <a href="https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTExL3JtNTg2YmF0Y2gyLWVtb2ppLTAwNi5wbmc.png" target="_blank">
+      <img src="https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTExL3JtNTg2YmF0Y2gyLWVtb2ppLTAwNi5wbmc.png" alt="Image 1">
+    </a>
+    
+    
+    <a href="https://images.unsplash.com/photo-1596705775825-194570c1f0cd?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z3JlZW4lMjBmbG93ZXJ8ZW58MHx8MHx8fDA%3D" target="_blank">
+      <img src="https://images.unsplash.com/photo-1596705775825-194570c1f0cd?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z3JlZW4lMjBmbG93ZXJ8ZW58MHx8MHx8fDA%3D" alt="Image 2">
+    </a>
+    
+   
+    <a href="https://dennisgillan.com/wp-content/uploads/2020/08/college-class-iStock.jpg" target="_blank">
+      <img src="https://dennisgillan.com/wp-content/uploads/2020/08/college-class-iStock.jpg" alt="Image 3">
+    </a>
+    
+    
+    <a href="https://www.usnews.com/object/image/00000190-3ba9-d6ee-a7ff-7fbb4cfe0000/gettyimages-1473712269.jpg?update-time=1718987895511&size=responsive640" target="_blank">
+      <img src="https://www.usnews.com/object/image/00000190-3ba9-d6ee-a7ff-7fbb4cfe0000/gettyimages-1473712269.jpg?update-time=1718987895511&size=responsive640" alt="Image 4">
+    </a>
+    
+    
+    <a href="https://www.southernliving.com/thmb/uO7iuCRtxBCrB97V2wxK7t04KEg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/gettyimages-897769800-1-b0f4b2c9dbbf4d1ca0f55b7b7706a417.jpg" target="_blank">
+      <img src="https://www.southernliving.com/thmb/uO7iuCRtxBCrB97V2wxK7t04KEg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/gettyimages-897769800-1-b0f4b2c9dbbf4d1ca0f55b7b7706a417.jpg" alt="Image 5">
+    </a>
+  </div>
+
+</body>
+</html>
